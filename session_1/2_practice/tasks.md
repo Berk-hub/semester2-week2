@@ -13,6 +13,7 @@ DATE('now', '-14 days') /* you can add or subtract days */
 1. **List all loans**  
 Show book title, member name, and loan date.
 
+
 2. **Books and loans**  
 List all books and any loans associated with them.
 

@@ -49,9 +49,11 @@ This saves you needing to then convert the tuples for use with matplotlib or the
 ### Level 1 – Warm-up
 
 1. List all **product categories** in the database.  
+
 2. Count the **total number of customers**.  
 3. Show all **orders for a given customer** (ask for a specific email).  
-4. Display **all products priced below £2**.  
+4. Display **all products priced below £2**. 
+
 
 ---
 

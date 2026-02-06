@@ -8,6 +8,14 @@
 -- 3. Exit SQLite: .exit
 
 
+
 -- write your sql code here
+-- Example of an outer join to find all students and their enrolled courses,
+-- including students who are not enrolled in any courses.  
+SELECT students.student_id, students.name AS student_name, courses.course_name
+FROM students
+LEFT JOIN enrollments ON students.student_id = enrollments.student_id
+LEFT JOIN courses ON enrollments.course_id = courses.course_id;
+
 
 
